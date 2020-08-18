@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: green;
+  background: black;
+}
+h1{
+  margin: 10px 0;
+}
+
+.big_cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big_cont > *{
+  padding: 10px 0;
+}
+
+textarea{
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.how{
+  cursor: pointer;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+}
